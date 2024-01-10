@@ -15,7 +15,7 @@ const Navbar = () => {
             <ul className="menu-items">
                 <li>
                     
-                    <a href="#">
+                    <a href="https://github.com/adavijit/frontend-challenges" target="_blank" rel="noreferrer">
                     <img src={GitHubIcon} alt='github'/>
                         GitHub</a>
                     
