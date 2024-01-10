@@ -5,58 +5,6 @@
     padding: 0;
     margin: 0;
 }
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines{
-    display: none;
-}
-
-.container{
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-}
-
-.navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
-    width: 100%;
-    background: #fff;
-    color: #000;
-    opacity: 0.85;
-    z-index: 100;
-}
-
-.navbar-container{
-    display: flex;
-    justify-content: space-between;
-    height: 64px;
-    align-items: center;
-}
-
-.menu-items{
-    order: 2;
-    display: flex;
-}
-.logo{
-    order: 1;
-    font-size: 1rem;
-}
-
-.menu-items li{
-    list-style: none;
-    margin-left: 1.5rem;
-    font-size: 1.3rem;
-}
-
-.navbar a{
-    color: #444;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
-}
-
-.navbar a:hover{
-    color: #117964;
-}
 
 .cards-div {
     display: flex;

@@ -73,5 +73,9 @@
 }
 
 .card-subheading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2px;
     font-size: 0.75rem;
 }

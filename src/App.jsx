@@ -11,7 +11,6 @@ const App = () => {
     <div>
       <Navbar />
       <div className="challenges-div">
-
         <div className="cards-div">
           {!component &&
             challenges.map((value, key) => {
@@ -30,23 +29,19 @@ const App = () => {
               );
             })}
         </div>
-        
 
         {component}
 
         <div className="footer-div">
-        {component && <a href={sourceLink}>Source Code</a>}
+          {component && <a href={sourceLink}>Source Code</a>}
 
-        {component && (
-        <button className="go-back-btn" onClick={() => setComponent(null)}>
-          Go Back
-        </button>
-        )}
+          {component && (
+            <button className="go-back-btn" onClick={() => setComponent(null)}>
+              Go Back
+            </button>
+          )}
         </div>
-
-        
       </div>
-      
     </div>
   );
 };

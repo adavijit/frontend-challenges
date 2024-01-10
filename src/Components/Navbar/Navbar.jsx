@@ -1,10 +1,11 @@
 import React from 'react';
+import GitHubIcon from './github-mark.png';
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-        <div className="navbar-container container">
+        <div className="navbar-container nv-container">
             <input type="checkbox" name="" id="" />
             <div className="hamburger-lines">
                 <span className="line line1"></span>
@@ -12,7 +13,13 @@ const Navbar = () => {
                 <span className="line line3"></span>
             </div>  
             <ul className="menu-items">
-                <li><a href="#">GitHub</a></li>
+                <li>
+                    
+                    <a href="#">
+                    <img src={GitHubIcon} alt='github'/>
+                        GitHub</a>
+                    
+                    </li>
             </ul>
             <h5 className="logo">Frontend Challenges</h5>
         </div>
