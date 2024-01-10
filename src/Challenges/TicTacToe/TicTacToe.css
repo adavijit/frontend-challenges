@@ -1,0 +1,13 @@
+.square-btn {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid gray;
+  font-size: large;
+  color: gray ;
+}
+.board-main {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 4px;
+}
