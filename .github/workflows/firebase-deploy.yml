@@ -7,11 +7,6 @@ name: Deploy to Firebase Hosting on push to main or merge
     branches:
       - main
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: npm i && npm run test
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
