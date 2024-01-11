@@ -1,0 +1,43 @@
+.move-text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.move-text-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.move-text-buttons button {
+    background: rgb(241, 234, 234);
+    color: #000;
+    padding: 9px 15px;
+}
+
+.move-text-buttons button:hover {
+    cursor: pointer;
+}
+
+.move-text-left-div {
+    height: 15em;
+    width: 5em;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.move-text-right-div {
+    height: 15em;
+    width: 5em;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.move-text-left-div p, .move-text-right-div p {
+    cursor: pointer;
+}
+
+.move-text-selected {
+    background-color: red;
+}

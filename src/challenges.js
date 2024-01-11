@@ -1,4 +1,5 @@
 import ChessBoard from "./Challenges/ChessBoard/ChessBoard";
+import MoveText from "./Challenges/MoveText/MoveText";
 import SnakeLadderBoard from "./Challenges/SnakeLadder/SnakeLadderBoard";
 import TicTacToe from "./Challenges/TicTacToe/TicTacToe";
 
@@ -21,6 +22,12 @@ const challenges = [
         "contributors": ["adavijit"],
         "source": `${basePath}/SnakeLadder`,
         "component": <SnakeLadderBoard />
+    },
+    {
+        "name": "Move Text",
+        "contributors": ["adavijit"],
+        "source": `${basePath}/MoveText`,
+        "component": <MoveText />
     },
 ];
 

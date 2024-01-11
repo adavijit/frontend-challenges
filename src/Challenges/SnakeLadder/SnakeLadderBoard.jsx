@@ -41,7 +41,6 @@ const SnakeLadderBoard = () => {
       if (alt === 0) {
         iterLR--;
         finalBoard.push(board[iterLR]);
-        console.log(board[iterLR]);
 
         if (iterLR % 10 === 1) {
           alt = 1;
@@ -50,7 +49,6 @@ const SnakeLadderBoard = () => {
       } else {
         iterRL++;
         finalBoard.push(board[iterRL]);
-        console.log(board[iterRL]);
 
         if (iterRL % 10 === 0) {
           alt = 0;
