@@ -24,8 +24,6 @@ const TicTacToe = () => {
 
   }, [squares]);
   return (
-    <div className="main-div">
-
       <div className="tic-tac-toe">
       {
         playerWon !== "" ?
@@ -48,7 +46,6 @@ const TicTacToe = () => {
       }) }</div>
       <button onClick={()=> setSquares(Array(9).fill(null))}>Reset</button>
       </div>
-    </div>
   );
 };
 

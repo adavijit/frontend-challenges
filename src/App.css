@@ -16,7 +16,7 @@
 .main-div {
     display: flex;
     justify-content: center;
-    margin-top: 10em;
+    margin-top: 6em;
 }
 
 .go-back-btn {
@@ -41,4 +41,8 @@
     margin: 0 auto;
     margin-top: 2em;
     gap: 5px;
+}
+
+.footer-div a {
+    color: rgb(51, 117, 182);
 }

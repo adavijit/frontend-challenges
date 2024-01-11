@@ -7,6 +7,8 @@ import Card from "./Components/Card/Card";
 const App = () => {
   const [component, setComponent] = useState(null);
   const [sourceLink, setSourceLink] = useState(null);
+  const [challengeName, setChallengeName] = useState(null);
+
   return (
     <div>
       <Navbar />
@@ -20,20 +22,19 @@ const App = () => {
                   name={value.name}
                   contributors={value.contributors}
                   source={value.source}
-                  onClick={(component, source) => {
+                  onClick={(component, source, name) => {
                     setComponent(component);
                     setSourceLink(source);
+                    setChallengeName(name)
                   }}
                   component={value.component}
                 />
               );
             })}
         </div>
-
-        {component}
-
+        <div className="main-div">{component}</div>
         <div className="footer-div">
-          {component && <a href={sourceLink}>Source Code</a>}
+          {component && <a href={sourceLink} target="_blank" rel="noreferrer"><b>{challengeName}</b> Source Code</a>}
 
           {component && (
             <button className="go-back-btn" onClick={() => setComponent(null)}>
