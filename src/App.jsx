@@ -4,21 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import challenges from "./challenges";
 import Card from "./Components/Card/Card";
 import Accordian from "./Components/Accordian/Accordian";
-
-const faqs = [
-  {
-    question: "What is your name",
-    answer: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vel vitae, illo ducimus eius, ut eos dolorum earum aut officiis ratione nemo libero dolores asperiores accusantium veritatis voluptatem provident minus.`,
-  },
-  {
-    question: "What is your fathers name",
-    answer: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vel vitae, illo ducimus eius, ut eos dolorum earum aut officiis ratione nemo libero dolores asperiores accusantium veritatis voluptatem provident minus.`,
-  },
-  {
-    question: "What is your mothers name",
-    answer: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vel vitae, illo ducimus eius, ut eos dolorum earum aut officiis ratione nemo libero dolores asperiores accusantium veritatis voluptatem provident minus.`,
-  },
-];
+import { faqs } from "./Components/Accordian/accordianDummyArray";
 
 const App = () => {
   const [component, setComponent] = useState(null);
