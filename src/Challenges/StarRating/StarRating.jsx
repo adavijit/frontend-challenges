@@ -3,17 +3,18 @@ import "./StarRating.css";
 
 const StarRating = () => {
   const [stars, setStars] = useState(Array(5).fill(0));
+
   const updateStars = (key) => {
     const tempArray = [...stars];
-    if (tempArray[key] === 1) {
-      for (let index = key + 1; index < tempArray.length; index++) {
-        tempArray[index] = 0;
-      }
+    if (key === 0 && tempArray[key] === 1 && tempArray[key + 1] !== 1) {
+      tempArray[key] = 0;
     } else {
-      for (let index = 0; index <= key; index++) {
-        tempArray[index] = 1;
+      const startIndex = tempArray[key] === 1 ? key + 1 : 0;
+      for (let index = startIndex; index < tempArray.length; index++) {
+        tempArray[index] = tempArray[key] === 1 ? 0 : 1;
       }
     }
+
     setStars(tempArray);
   };
   return (
