@@ -1,6 +1,7 @@
 import ChessBoard from "./Challenges/ChessBoard/ChessBoard";
 import MoveText from "./Challenges/MoveText/MoveText";
 import SnakeLadderBoard from "./Challenges/SnakeLadder/SnakeLadderBoard";
+import StarRating from "./Challenges/StarRating/StarRating";
 import TicTacToe from "./Challenges/TicTacToe/TicTacToe";
 
 const basePath = "https://github.com/adavijit/frontend-challenges/tree/main/src/Challenges";
@@ -28,6 +29,12 @@ const challenges = [
         "contributors": ["adavijit"],
         "source": `${basePath}/MoveText`,
         "component": <MoveText />
+    },
+    {
+        "name": "Star Rating",
+        "contributors": ["adavijit"],
+        "source": `${basePath}/MoveText`,
+        "component": <StarRating />
     },
 ];
 

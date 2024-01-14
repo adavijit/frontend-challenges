@@ -1,0 +1,8 @@
+.star-rating-text{
+    cursor: pointer;
+    font-size: 4em;
+}
+
+.star-rating-golden {
+    color: gold;
+}
