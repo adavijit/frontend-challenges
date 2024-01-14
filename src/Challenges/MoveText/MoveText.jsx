@@ -35,7 +35,6 @@ const MoveText = () => {
   }
   return (
     <div>
-      <p>Problem Statement:</p>
       <div className="move-text">
         <div className="move-text-left-div">
           {lists.map((value, key) => {

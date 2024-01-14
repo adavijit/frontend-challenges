@@ -33,7 +33,7 @@ const challenges = [
     {
         "name": "Star Rating",
         "contributors": ["adavijit"],
-        "source": `${basePath}/MoveText`,
+        "source": `${basePath}/StarRating`,
         "component": <StarRating />
     },
 ];
