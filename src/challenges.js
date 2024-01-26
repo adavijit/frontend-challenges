@@ -1,3 +1,4 @@
+import AutoComplete from "./Challenges/AutoComplete/AutoComplete";
 import ChessBoard from "./Challenges/ChessBoard/ChessBoard";
 import MoveText from "./Challenges/MoveText/MoveText";
 import SnakeLadderBoard from "./Challenges/SnakeLadder/SnakeLadderBoard";
@@ -35,6 +36,12 @@ const challenges = [
         "contributors": ["adavijit"],
         "source": `${basePath}/StarRating`,
         "component": <StarRating />
+    },
+    {
+        "name": "Auto Complete",
+        "contributors": ["adavijit"],
+        "source": `${basePath}/AutoComplete`,
+        "component": <AutoComplete />
     },
 ];
 

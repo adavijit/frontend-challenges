@@ -1,0 +1,62 @@
+/* bg:e4e4e4 , border: #dbdbdb -> light */
+/* bg:1e1f26 , border: #2d2e36 -> dark */
+
+.auto-complete-sugesstion-auto {
+    display: block;
+    border-radius: 7px;
+    position: relative;
+    transition: background 0.3s ease;
+  }
+  
+  .auto-complete-form-control-auto {
+    background-color: #e3e4eb !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .auto-complete-form-control-auto input {
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+  }
+  
+  .auto-complete-form-control-auto label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #949494;
+    padding: 10px 0px 10px 20px;
+  }
+  
+  .auto-complete-suggestions {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 999;
+    cursor: pointer;
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+  }
+  
+  .auto-complete-suggestions > div {
+    padding: 15px 25px;
+    border-bottom: 2px solid #e3e4eb;
+    transition: all 0.1s ease;
+  }
+  
+  .auto-complete-suggestions > div:hover {
+    background-color: #dbdbdb !important;
+    color: #2f3039;
+  }
+  
+  .auto-complete-suggestions > div,
+  .auto-complete-form-control-auto input {
+    font-size: 14px !important;
+    background-color: #e3e4eb;
+    color: #2f3039;
+  }
+  
