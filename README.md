@@ -3,9 +3,9 @@ Welcome to the Frontend Interview Challenges repository! This project aims to pr
 
 ## Contributing
 
-1. Clone the repository:
+1. Fork and then clone the repository:
 ```bash
-git clone https://github.com/adavijit/frontend-challenges.git
+git clone <forked_repo_git_https_url>
 ```
 2. Install dependencies:
 ```bash
@@ -13,7 +13,7 @@ cd frontend-challenges
 npm install
 ```
 3. Explore the `challenges` in the challenges directory.
-4. Create a new folder under `challenges` directory and add your challenge.
+4. Create a new folder under `challenges` directory and add your challenge file (eg. TestChallenge.jsx).
 5. Put the challenge details into `challenges.js` file
 ```javascript
 // Ex.
@@ -24,7 +24,8 @@ npm install
         "component": <COMPONENT_TO_RENDER>
 }
 ```
-6.  Create a new branch, push your changes and raise a PR.
+6. Start to code.
+7. Create a new branch, push your changes and raise a PR.
 
 ## License
 
