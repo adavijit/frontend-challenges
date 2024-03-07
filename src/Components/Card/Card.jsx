@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ name, onClick, component, contributors, source }) => {
   // predefined list of colors
-  const colors = ["#EAC5D8", "#d4e1ca", "#c0e6de", "#dee6c0", "#c7d2e2"];
+  const colors = ["#EAC5D8", "#d4e1ca", "#c0e6de", "#dee6c0", "#c7d2e2", "#FCE7EB"];
 
   // Function to get a random color from the predefined list
   function getRandomColor() {
