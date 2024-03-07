@@ -1,0 +1,36 @@
+.ddWrapper {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 15px;
+  padding-bottom: 10px;
+  border: solid 1px #000;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.menuItem,
+.listItem {
+  padding-left: 15px;
+  border-left: solid 1px #000;
+}
+
+h1 {
+  cursor: pointer;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.dd__collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out;
+}
+
+.dd__collapse div {
+  overflow: hidden;
+}
+
+.dd__collapse.open {
+  grid-template-rows: 1fr;
+}

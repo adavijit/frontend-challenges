@@ -3,6 +3,7 @@ import MoveText from "./Challenges/MoveText/MoveText";
 import SnakeLadderBoard from "./Challenges/SnakeLadder/SnakeLadderBoard";
 import StarRating from "./Challenges/StarRating/StarRating";
 import TicTacToe from "./Challenges/TicTacToe/TicTacToe";
+import NestedDropDown from "./Challenges/NestedDropDown/NestedDropDown.jsx"
 
 const basePath = "https://github.com/adavijit/frontend-challenges/tree/main/src/Challenges";
 const challenges = [
@@ -35,6 +36,12 @@ const challenges = [
         "contributors": ["adavijit"],
         "source": `${basePath}/StarRating`,
         "component": <StarRating />
+    },
+    {
+        "name": "Nested Dropdown",
+        "contributors": ["nmayur"],
+        "source": `${basePath}/NestedDropDown`,
+        "component": <NestedDropDown />
     },
 ];
 
