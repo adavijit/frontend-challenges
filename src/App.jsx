@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import challenges from "./challenges";
 import Card from "./Components/Card/Card";
+import Accordian from "./Components/Accordian/Accordian";
+import { faqs } from "./Components/Accordian/accordianDummyArray";
 
 const App = () => {
   const [component, setComponent] = useState(null);
@@ -25,7 +27,7 @@ const App = () => {
                   onClick={(component, source, name) => {
                     setComponent(component);
                     setSourceLink(source);
-                    setChallengeName(name)
+                    setChallengeName(name);
                   }}
                   component={value.component}
                 />
@@ -34,7 +36,11 @@ const App = () => {
         </div>
         <div className="main-div">{component}</div>
         <div className="footer-div">
-          {component && <a href={sourceLink} target="_blank" rel="noreferrer"><b>{challengeName}</b> Source Code</a>}
+          {component && (
+            <a href={sourceLink} target="_blank" rel="noreferrer">
+              <b>{challengeName}</b> Source Code
+            </a>
+          )}
 
           {component && (
             <button className="go-back-btn" onClick={() => setComponent(null)}>
@@ -42,6 +48,10 @@ const App = () => {
             </button>
           )}
         </div>
+      </div>
+
+      <div className="Accordian-div">
+        <Accordian accordianContent={faqs} />
       </div>
     </div>
   );

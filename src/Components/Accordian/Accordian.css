@@ -1,0 +1,53 @@
+.Accordian-container{
+    width: 100%;
+    background-color: #f0f0f0;
+
+
+    .AccordianItem-container{
+        border-bottom: 1px solid black;
+        overflow: hidden;
+      }
+      
+      .AccordianItem-container .question-container {
+        width: 100%;
+        text-align: left;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 20px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .question-container.active {
+        background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
+      }
+      
+      .AccordianItem-container .question-container:hover {
+        background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
+      }
+      
+      .AccordianItem-container .arrow {
+        width: 25px;
+        height: 25px;
+        transition: .5s ease-in-out;
+      }
+      
+      .arrow.active {
+        rotate: 180deg;
+      }
+      
+      .AccordianItem-container .answer-container {
+        padding: 0 1rem;
+        transition: height .4s ease-in-out;
+      }
+      
+      .AccordianItem-container .answer-content {
+        padding: 1rem 0;
+        font-size: 20px;
+      }
+}
+
