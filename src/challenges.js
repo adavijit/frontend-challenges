@@ -5,6 +5,7 @@ import SnakeLadderBoard from "./Challenges/SnakeLadder/SnakeLadderBoard";
 import StarRating from "./Challenges/StarRating/StarRating";
 import TicTacToe from "./Challenges/TicTacToe/TicTacToe";
 import NestedDropDown from "./Challenges/NestedDropDown/NestedDropDown.jsx"
+import NumbersToWords from "./Challenges/NumbersToWords";
 
 const basePath = "https://github.com/adavijit/frontend-challenges/tree/main/src/Challenges";
 const challenges = [
@@ -51,6 +52,12 @@ const challenges = [
         "source": `${basePath}/AutoComplete`,
         "component": <AutoComplete />
     },
+    {
+        "name": "Numbers To words",
+        "contributors": ["rupali-yadav"],
+        "source": `${basePath}/AutoComplete`,
+        "component": <NumbersToWords />
+    }
 ];
 
 export default challenges;
