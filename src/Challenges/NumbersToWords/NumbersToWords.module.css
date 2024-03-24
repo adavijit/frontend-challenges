@@ -1,0 +1,35 @@
+.container {
+    padding: 0 0 80px;
+    font-size: 16px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.numberInput {
+    /* border: none; */
+    /* border-bottom: 1px solid #000; */
+    font-size: 18px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.submitBtn {
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.word {
+    padding: 30px 10px;
+}
